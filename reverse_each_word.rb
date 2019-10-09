@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
 
   sentence.collect do |word|
     word = word.reverse
-    "#{word}"
+    word.to_s
   end
 end
